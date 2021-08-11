@@ -1,0 +1,134 @@
+<html>
+<head>
+	<!--tag para a acentuação-->
+	<meta charset="utf-8">
+</head>
+<!--em CSS-->
+<style>
+*{
+	margin: 5;
+	padding: 5;
+	border: 5;
+}
+
+/*imagens*/
+img{
+	width: 400px;
+	height: 170px;
+}
+
+/*Borda 1*/
+.teste{
+	width: 98%;
+	height: 33%;
+	border: 3px solid red;
+}
+
+/*Borda 2*/
+.teste2{
+	width: 98%;
+	height: 33%;
+	border: 3px solid green;
+}
+
+/*Borda 3*/
+.teste3{
+	width: 98%;
+	height: 33%;
+	border: 3px solid violet;
+}
+
+/*Borda 4*/
+.teste4{
+	width: 98%;
+	height: 33%;
+	border: 3px solid blue;
+}
+
+/*Borda 5*/
+.teste5{
+	width: 98%;
+	height: 33%;
+	border: 3px solid black;
+}
+
+/*Borda 6*/
+.teste6{
+	width: 98%;
+	height: 33%;
+	border: 3px solid yellow;
+}
+
+/*Flexbox para organizar dentro dos containers*/
+.flexbox{
+	display: flex;
+
+	 /*Alinha os itens ao centro do container*/
+	 justify-content:center;
+
+	 /*Os itens ficam em linha*/
+	 flex-direction: row;
+
+	 /*Cria um espaçamento entre os elementos.*/
+	 justify-content: space-around;
+}
+
+.flexbox2{
+	display: flex;
+	 /*Cria um espaçamento entre os elementos.*/
+	 justify-content: space-around;
+
+	 /*Os itens ficam em linha reversa*/
+	 flex-direction: row-reverse;
+
+	 /*Alinha os itens ao centro do container*/
+	 justify-content:center;
+
+	 /*Os itens ficam em linha*/
+	 flex-direction: row;
+}
+
+</style>
+<body>
+<div class="flexbox">
+<div class="teste">
+	<img src="template_1.png">	
+	<img src="template_1.png">	
+	<img src="template_1.png">	
+</div>
+
+<div class="teste2">
+	<img src="template_2.png">	
+	<img src="template_2.png">	
+	<img src="template_2.png">	
+</div>
+
+<div class="teste3">
+	<img src="template_3.png">	
+	<img src="template_3.png">	
+	<img src="template_3.png">	
+</div>
+</div>
+
+<div class="flexbox2">
+<div class="teste4">
+	<img src="template_2.png">	
+	<img src="template_2.png">	
+	<img src="template_2.png">	
+</div>
+
+<div class="teste5">
+	<img src="template_3.png">	
+	<img src="template_3.png">	
+	<img src="template_3.png">	
+</div>
+
+<div class="teste6">
+	<img src="template_1.png">	
+	<img src="template_1.png">	
+	<img src="template_1.png">
+</div>
+</div>
+
+</body>
+</html>
